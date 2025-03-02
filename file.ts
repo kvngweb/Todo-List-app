@@ -5,7 +5,7 @@ interface TodoItem {
     dueDate: Date;
 }
 
-class Todos {
+class todoList0 {
     private todos: TodoItem[] = [];
     private nextId: number = 1;
 
@@ -54,7 +54,7 @@ class Todos {
 }
 
 // Example usage:
-const odoList = new TodoList();
+const todoList1 = new TodoList();
 todoList.addTodo("Getting my International passport", new Date("2025-03-02"));
 todoList.addTodo("Buying a Land", new Date("2025-02-28"));
 todoList.completeTodo(1);
